@@ -68,7 +68,14 @@ h1{
     padding: 25px;
 }
 
- 
+ .imagenes{
+    height:300px;
+    width: 300px;
+ }
+ .imagenesrotate{
+    height:300px;
+    width: 300px;
+ }
   
 .imagenes2 {
 width: 50%;
@@ -180,7 +187,8 @@ padding: 12px 20px;
     }
     .navegacion {
         grid-area: navegaciones;
-        background-color: #cbf3f0 ;
+        background-color:rgb(248,255,255);
+        background: linear-gradient(52deg, rgba(248,255,255,1) 0%, rgba(203,243,240,1) 65%, rgba(109,200,205,1) 98%);  ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -233,8 +241,8 @@ padding: 12px 20px;
                 background-color: #cbf3f0;
                 padding: 10px 15px;
                 border-radius: 10px;
-                width: 400px;
-                height: 200px;
+                width: 300px;
+                height: 150px;
             
             }
             .form{ display: block;
@@ -397,5 +405,18 @@ padding: auto auto;
       }
 }
 
+.imagenesrotate{
+    transform: rotateY(180deg);
+}
 
+.imagenesdos{
+    transform: translate(250px);
+}
 
+.iframe{
+    width:600px;
+    transition: 1s;
+}
+.iframe:hover {
+    width:1000px;
+}
