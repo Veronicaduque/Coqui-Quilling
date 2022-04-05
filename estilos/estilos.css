@@ -22,29 +22,13 @@
   font-size: 20px;
   font-family:'poppins', sans-serif;
 }
-#menu ul{
-    display: inline-block;
-    display: flex;
-    padding-right:10 px;
-    }
-#menu ul li{  
-    display: flex;
-    position: relative;
-    color: #00afb9;
-    list-style-type: none;
-    padding: 0 10px;
-    font-size:30px;
-    }
-
-#menu ul li:hover{
-    background-color: #00afb9;
-}
-
-
-#menu{
+.navbar-vero{
     background-color:#cbf3f0;
-    color:#f07167;
+    color:black;
+    text-decoration: none;
     }
+.navbar-vero ul li {color:black;
+    text-decoration: none;}
 
 h1{
     text-align:center;
@@ -84,9 +68,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#boton{
+.btnPropio{
     background-color:#ffa69e;
         padding: 30 px;
+        color:black
 }
 
 /* fOOTER */
@@ -199,7 +184,7 @@ padding: 12px 20px;
         align-items:center;
         padding: 50px;
         }
-    #footer {
+    .footer {
         grid-area: footer;
         font-family:'poppins', sans-serif;
         font-weight: 800;
