@@ -35,7 +35,7 @@ h1{
     color:#f07167;
     font-style:oblique;
     font-weight: 800;
-    font-size:350%;
+    font-size:250%;
     font-family:'poppins', sans-serif;
 }
 
@@ -49,20 +49,28 @@ h1{
     font-family:'poppins', sans-serif;
     text-align:center;
     line-height:1.5;
-    padding: 25px;
+    
+}
+
+.parrafo{
+    color:#ffa69e;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:100%;
+    font-family:'poppins', sans-serif;
+    text-align:center;
+    line-height:1.5;
+    
 }
 
  .imagenes{
     height:300px;
     width: 300px;
  }
- .imagenesrotate{
-    height:300px;
-    width: 300px;
- }
   
-.imagenes2 {
-width: 50%;
+.imagenesdos {
+    height:700px;
+    width: 1000px;   
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -71,7 +79,17 @@ margin-right: auto;
 .btnPropio{
     background-color:#ffa69e;
         padding: 30 px;
-        color:black
+        color:black;
+        margin-left: auto;
+       margin-right: auto;
+       text-align:center;
+margin-left: 100 ;
+     
+}
+
+.col-12.btn-center {
+display: flex; 
+
 }
 
 /* fOOTER */
@@ -195,7 +213,23 @@ padding: 12px 20px;
     .boton {
         text-align: center;
     }
-   
+    .carousel-innervero{
+        height:800px;
+    width: 500px;
+    justify-content: center;
+        align-items:center;
+    }
+    .titulos { text-align:center;
+    color:#f07167;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:200%;
+    font-family:'poppins', sans-serif;}
+
+    .nav-item .nav-link {
+        color: black;
+    }
+
     /* Responsive */
 
     @media screen and (max-width: 768px){

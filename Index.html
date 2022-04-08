@@ -23,68 +23,100 @@
     <div class="container-fluid">
         <div class=row>
             <div class="col-12">
-                    <header class="navegacion">
+                <header class="navegacion">
                     <img src="multimedia/Capture.jpeg" alt="Logo de la empresa" title="Logo de la empresa"
                         class="logoImagen">
                     <div id="menulogo">
                         <nav class="navbar navbar-expand-lg navbar-vero">
                             <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="paginas/Quilling.html">Quilling</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="paginas/contacto.html">Contacto</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="paginas/Productos.html">Productos</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="paginas/Nosotros.html">Nosotros</a>
-                                  </li>
-                                </ul>
-                                <form class="d-flex">
-                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                  <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                              </div>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="paginas/Quilling.html">Quilling</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="paginas/Productos.html">Productos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="paginas/Nosotros.html">Nosotros</a>
+                                        </li>
+                                    </ul>
+                                    <form class="d-flex">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    </form>
+                                </div>
                             </div>
-                          </nav>
-                        </div>
+                        </nav>
+                    </div>
                 </header>
             </div>
         </div>
-        <main class="coqui row">
+        <main class="container">
             <div class="col-12">
-                <div class=titulos>
-                    <section>
-                        <h1>Coqui Quilling</h1>
-                    </section>
+                <div class="titulos row">
+                    <div class="col-12">
+                        <section>
+                            <h1>Coqui Quilling</h1>
+                        </section>
+                    </div>
                 </div>
-                <div class="imagenesdos">
-                    <section><img class="imagenesrotate" src="multimedia/J.JPG" alt="Producto de la empresa"
-                            title="Producto de la empresa"><img class="imagenes" src="multimedia/m.JPG"
-                            alt="Producto de la empresa" title="Producto de la empresa"><img class="imagenes"
-                            src="multimedia/Emilia.JPG" alt="Producto de la empresa" title="Producto de la empresa">
-                    </section>
+                <div class="imagenesdos row">
+                    <div class="col-12">
+                        <!-- Aca empiezan mis carousel -->
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-innervero">
+                                <div class="carousel-item active">
+                                    <img src="multimedia/J.JPG" class="d-block w-100 imagenesrotate" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="multimedia/m.JPG" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="multimedia/Emilia.JPG" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="parrafo">
-                    <section>
-                        <p class="parrafo_rosa">Aprendé más sobre esta técnica artística para tarjetas , cuadros,
-                            accesorios
-                            de decoración, adornos de fiestas y sorprendé a tus seres queridos con un regalo sin igual.
-                        </p>
-                    </section>
+                <div class="parrafo row">
+                    <div class="col-12">
+                        <section>
+                            <p class="parrafo_rosa">Aprendé más sobre esta técnica artística para tarjetas , cuadros,
+                                accesorios
+                                de decoración, adornos de fiestas y sorprendé a tus seres queridos con un regalo sin
+                                igual.
+                            </p>
+                        </section>
+                    </div>
                 </div>
-                <button type="button" class="btn btnPropio" ><a  href="paginas/Productos.html">Explorá la tienda</a></button>
-            </div>
+                <div class="row">
+                    <div class="col-12 btn-center">
+                        <button type="button" class="btn btnPropio row"><a href="paginas/Productos.html">Explorá la
+                                tienda</a></button>
+                    </div>
         </main>
         <footer class="footer row">
             <div class="col-12">
@@ -101,5 +133,4 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
