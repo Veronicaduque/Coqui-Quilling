@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr auto;
+    grid-template-areas:
+        "navegaciones navegaciones navegaciones"
+        "titulo titulo titulo"
+        "footer footer footer";
+    height: fit-content;
+}
+.navegacion {
+    grid-area: navegaciones;
+    background-color:rgb(248,255,255);
+    background: linear-gradient(52deg, rgba(248,255,255,1) 0%, rgba(203,243,240,1) 65%, rgba(109,200,205,1) 98%);  ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.coqui {
+    grid-area: titulo;
+    justify-content: center;
+    align-items:center;
+    padding: 50px;
+    }

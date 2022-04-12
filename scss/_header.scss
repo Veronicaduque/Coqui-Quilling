@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* LOGO */
+.logoImagen{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    height:100px;
+    width: 100px;
+    }
+    
+    /* NAV */
+.nav-item .nav-link {
+    color: black;
+}
+.navbar-vero{
+    background-color:$colorTerceario;
+    color:black;
+    text-decoration: none;
+    }
+.navbar-vero ul li {color:black;
+    text-decoration: none;}
+
+   

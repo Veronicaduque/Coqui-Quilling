@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* LOGO */
+.logoImagen {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  height: 100px;
+  width: 100px; }
+
+/* NAV */
+.nav-item .nav-link {
+  color: black; }
+
+.navbar-vero {
+  background-color: #cbf3f0;
+  color: black;
+  text-decoration: none; }
+
+.navbar-vero ul li {
+  color: black;
+  text-decoration: none; }
+
+/* H1 */
+h1 {
+  text-align: center;
+  color: #f07167;
+  font-style: oblique;
+  font-weight: 800;
+  font-size: 250%;
+  font-family: 'poppins', sans-serif; }
+
+/* CAROUSEL */
+.carousel-innervero {
+  height: 800px;
+  width: 500px;
+  justify-content: center;
+  align-items: center; }
+
+.imagenesrotate {
+  transform: rotateY(180deg); }
+
+.imagenesdos {
+  transform: translate(250px); }
+
+.imagenesdos {
+  height: 700px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.iframe {
+  width: 600px;
+  transition: 1s; }
+
+.iframe:hover {
+  width: 1000px; }
+
+.imagenes {
+  height: 300px;
+  width: 300px; }
+
+/* PARRAFO */
+.parrafo_rosa {
+  color: #ffa69e;
+  font-style: oblique;
+  font-weight: 800;
+  font-size: 150%;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5; }
+
+.parrafo {
+  color: #ffa69e;
+  font-style: oblique;
+  font-weight: 800;
+  font-size: 100%;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5; }
+
+/* BOTON*/
+.btnPropio {
+  background-color: #ffa69e;
+  padding: 30 px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 100; }
+
+.col-12.btn-center {
+  display: flex; }
+
+/* BOTON*/
+.titulos {
+  text-align: center;
+  color: #f07167;
+  font-style: oblique;
+  font-weight: 800;
+  font-size: 200%;
+  font-family: 'poppins', sans-serif; }
+
+/* FOOTER */
+#footer {
+  font-family: 'poppins', sans-serif;
+  font-weight: 800;
+  font-size: 80%;
+  background-image: url("https://www.thesprucecrafts.com/thmb/J_JeMbDwWVl_KgWMtNu4p5tG-RE=/3750x2500/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-627288108-58c4a8e73df78c353c165ea6.jpg");
+  padding: 30px; }
+
+a {
+  text-decoration: none; }
+
+.coqui {
+  padding: 250px; }
+
+.footer {
+  grid-area: footer;
+  font-family: 'poppins', sans-serif;
+  font-weight: 800;
+  font-size: 80%;
+  background-image: url("https://www.thesprucecrafts.com/thmb/J_JeMbDwWVl_KgWMtNu4p5tG-RE=/3750x2500/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-627288108-58c4a8e73df78c353c165ea6.jpg");
+  padding: 30px; }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    grid-template-areas: "navegaciones navegaciones" "titulo titulo" "footer footer";
+    height: fit-content; }
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    align-items: center;
+    background-color: #ffa69e; }
+  .coqui {
+    flex-wrap: wrap; }
+  #footer {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  #menu {
+    background-color: #ffa69e; }
+  .iframe {
+    background-color: #cbf3f0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px; }
+  .form {
+    display: block;
+    width: auto;
+    padding: auto auto;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #00afb9;
+    border-radius: 15px; }
+  .form textarea {
+    padding: 20% 20%;
+    box-sizing: border-box;
+    border: 3px solid #00afb9;
+    border-radius: 15px;
+    background-color: #cbf3f0;
+    resize: none; }
+  .form input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #00afb9;
+    border-radius: 15px;
+    background-color: #cbf3f0;
+    resize: none; }
+  input[type=submit], input[type=reset] {
+    background-color: #cbf3f0;
+    border: black;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 15px; }
+  h1 {
+    text-align: center;
+    color: #f07167;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 250%;
+    font-family: 'poppins', sans-serif; }
+  #menu ul a {
+    color: black;
+    text-align: center;
+    padding: 5px 3px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif; }
+  #menu ul {
+    display: inline-block;
+    display: flex;
+    padding-right: 8 px; }
+  #menu ul li {
+    display: flex;
+    position: relative;
+    color: #00afb9;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 20px; } }
+
+@media screen and (max-width: 480px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    grid-template-areas: "navegaciones" "titulo" "footer";
+    height: fit-content; }
+  .navegacion {
+    flex-direction: column;
+    flex: wrap;
+    align-items: center;
+    background-color: #f8e5e3; }
+  .coqui {
+    flex-wrap: wrap; }
+  #footer {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  #menu {
+    background-color: #f8e5e3; }
+  .iframe {
+    background-color: #cbf3f0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px; }
+  .form {
+    display: block;
+    width: auto;
+    padding: auto auto;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #00afb9;
+    border-radius: 15px; }
+  .form textarea {
+    padding: 10% 10%;
+    box-sizing: border-box;
+    border: 3px solid #00afb9;
+    border-radius: 15px;
+    background-color: #cbf3f0;
+    resize: none; }
+  .form input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #00afb9;
+    border-radius: 15px;
+    background-color: #cbf3f0;
+    resize: none; }
+  input[type=submit], input[type=reset] {
+    background-color: #cbf3f0;
+    border: black;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 15px; }
+  #menu ul a {
+    color: black;
+    text-align: center;
+    padding: 3px 1px;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'poppins', sans-serif; }
+  #menu ul {
+    display: inline-block;
+    display: flex;
+    padding-right: 5 px; }
+  #menu ul li {
+    display: flex;
+    position: relative;
+    color: #00afb9;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 10px; } }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr auto;
+  grid-template-areas: "navegaciones navegaciones navegaciones" "titulo titulo titulo" "footer footer footer";
+  height: fit-content; }
+
+.navegacion {
+  grid-area: navegaciones;
+  background-color: #f8ffff;
+  background: linear-gradient(52deg, #f8ffff 0%, #cbf3f0 65%, #6dc8cd 98%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.coqui {
+  grid-area: titulo;
+  justify-content: center;
+  align-items: center;
+  padding: 50px; }

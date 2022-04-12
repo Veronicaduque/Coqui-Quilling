@@ -1,0 +1,91 @@
+/* H1 */
+h1{
+    text-align:center;
+    color:$colorPrincipal;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:250%;
+    font-family:'poppins', sans-serif;
+}
+/* CAROUSEL */
+.carousel-innervero{
+    height:800px;
+width: 500px;
+justify-content: center;
+    align-items:center;
+}
+.imagenesrotate{
+    transform: rotateY(180deg);
+}
+
+.imagenesdos{
+    transform: translate(250px);
+}
+
+.imagenesdos {
+    height:700px;
+    width: 1000px;   
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.iframe{
+    width:600px;
+    transition: 1s;
+}
+.iframe:hover {
+    width:1000px;
+}
+
+.imagenes{
+    height:300px;
+    width: 300px;
+ }
+
+/* PARRAFO */
+.parrafo_rosa{
+    color:$colorSecundario;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:150%;
+    font-family:'poppins', sans-serif;
+    text-align:center;
+    line-height:1.5;
+    
+}
+
+.parrafo{
+    color:$colorSecundario;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:100%;
+    font-family:'poppins', sans-serif;
+    text-align:center;
+    line-height:1.5;
+    
+}
+
+/* BOTON*/
+.btnPropio{
+    background-color:$colorSecundario;
+        padding: 30 px;
+        color:black;
+        margin-left: auto;
+       margin-right: auto;
+       text-align:center;
+margin-left: 100 ;
+     
+}
+
+.col-12.btn-center {
+display: flex; 
+
+}
+/* BOTON*/
+.titulos { text-align:center;
+    color:$colorPrincipal;
+    font-style:oblique;
+    font-weight: 800;
+    font-size:200%;
+    font-family:'poppins', sans-serif;}
