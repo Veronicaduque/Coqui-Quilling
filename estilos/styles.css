@@ -1,3 +1,24 @@
+/* map*/
+.parrafo_rosa, .parrafo_rosados {
+  background-color: #cbf3f0;
+  padding: 0.5rem;
+  font-size: 40px; }
+
+/* extend*/
+.parrafo_rosados {
+  border: 1px solid black;
+  color: black;
+  background-color: #f07167; }
+
+/* Mixin*/
+.imagenesdos {
+  height: 700px;
+  width: 1000px; }
+
+.logoImagen {
+  height: 100px;
+  width: 100px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -8,9 +29,7 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 0px;
-  height: 100px;
-  width: 100px; }
+  padding: 0px; }
 
 /* NAV */
 .nav-item .nav-link {
@@ -66,7 +85,7 @@ h1 {
   width: 300px; }
 
 /* PARRAFO */
-.parrafo_rosa {
+.parrafo_rosa, .parrafo_rosados {
   color: #ffa69e;
   font-style: oblique;
   font-weight: 800;
@@ -105,6 +124,68 @@ h1 {
   font-weight: 800;
   font-size: 200%;
   font-family: 'poppins', sans-serif; }
+
+/* NOSOTROS*/
+.parrafo_dos {
+  color: #ffa69e;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 100%;
+  font-family: 'poppins', sans-serif;
+  text-align: justify;
+  line-height: 2.5;
+  padding: 25px; }
+
+/* QUILLING*/
+.iframe {
+  background-color: #cbf3f0;
+  padding: 15px 30px;
+  border-radius: 15px;
+  width: 1000px;
+  height: 500px; }
+
+.iframe {
+  width: 600px;
+  transition: 1s; }
+
+.iframe:hover {
+  width: 1000px; }
+
+/* CONTACTO */
+.form {
+  display: block;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #00afb9;
+  border-radius: 15px; }
+
+.form textarea {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ffa69e;
+  border-radius: 15px;
+  background-color: #f8e5e3;
+  resize: none; }
+
+.form input {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ffa69e;
+  border-radius: 15px;
+  background-color: #f8e5e3;
+  resize: none; }
+
+input[type=submit], input[type=reset] {
+  background-color: #f8e5e3;
+  border: black;
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 6px 4px;
+  cursor: pointer;
+  border-radius: 15px; }
 
 /* FOOTER */
 #footer {
@@ -233,8 +314,8 @@ a {
     background-color: #cbf3f0;
     padding: 10px 15px;
     border-radius: 10px;
-    width: 200px;
-    height: 100px; }
+    width: 50px;
+    height: 50px; }
   .form {
     display: block;
     width: auto;

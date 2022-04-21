@@ -1,3 +1,38 @@
 $colorPrincipal: #f07167;
 $colorSecundario: #ffa69e;
 $colorTerceario: #cbf3f0;
+
+ /* map*/
+$estilos: (
+    color: #cbf3f0,
+    tFuente: 40px,
+    cento: center, 
+    1rem: 0.5rem,
+);
+
+.parrafo_rosa {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 1rem);
+    font-size:map-get($estilos, tFuente);
+    }
+
+    /* extend*/
+ .parrafo_rosados{
+     @extend .parrafo_rosa;
+     border:1px solid black;
+     color: black;
+     background-color:#f07167;
+       
+ }
+    /* Mixin*/
+ @mixin sizes($ancho, $alto) {
+     height: $alto;
+     width: $ancho;  }
+     
+.imagenesdos{
+    @include sizes(1000px, 700px);
+}
+.logoImagen{
+    @include sizes (100px, 100px)
+}
