@@ -1,0 +1,9 @@
+/* NAVEGACION */
+.navegacion {
+    grid-area: navegaciones;
+    background-color:rgb(248,255,255);
+    background: linear-gradient(52deg, rgba(248,255,255,1) 0%, rgba(203,243,240,1) 65%, rgba(109,200,205,1) 98%);  ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}

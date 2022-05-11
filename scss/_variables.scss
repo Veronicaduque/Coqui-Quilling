@@ -11,7 +11,6 @@ $estilos: (
 );
 
 .parrafo_rosa {
-    background-color: map-get($estilos, color);
     text-align: map-get($estilos, centro);
     padding: map-get($estilos, 1rem);
     font-size:map-get($estilos, tFuente);
@@ -20,9 +19,8 @@ $estilos: (
     /* extend*/
  .parrafo_rosados{
      @extend .parrafo_rosa;
-     border:1px solid black;
      color: black;
-     background-color:#f07167;
+     
        
  }
     /* Mixin*/
