@@ -56,10 +56,14 @@ h1 {
 
 /* CAROUSEL */
 .carousel-innervero {
-  height: 720px;
-  width: 700px;
   justify-content: center;
   align-items: center;
+  margin: auto; }
+
+.div#carouselExampleFade.carousel.slide.carousel-fade.carouselveronica.pointer-event {
+  margin: auto; }
+
+div.carousel-innervero {
   margin: auto; }
 
 .carouselveronica {
@@ -195,6 +199,10 @@ h1 {
   background-color: #f8e5e3;
   resize: none; }
 
+.form legend {
+  font-weight: 500;
+  font-size: 100%; }
+
 input[type=submit],
 input[type=reset] {
   background-color: #f8e5e3;
@@ -254,8 +262,6 @@ a {
   h2 {
     font-size: 150%; }
   .carousel-innervero {
-    height: 500px;
-    width: 500px;
     justify-content: center;
     align-items: center; }
   .carouselveronica {
@@ -395,8 +401,6 @@ a {
     padding: 0 10px;
     font-size: 20px; }
   .carousel-innervero {
-    height: 350px;
-    width: 350px;
     justify-content: center;
     align-items: center;
     margin: auto; }
@@ -538,8 +542,6 @@ a {
     font-size: 100%;
     font-family: 'poppins', sans-serif; }
   .carousel-innervero {
-    height: 350px;
-    width: 200px;
     justify-content: center;
     align-items: center;
     margin: auto; }
@@ -580,8 +582,6 @@ a {
     font-family: 'poppins', sans-serif;
     margin-top: .5rem; }
   .carousel-innervero {
-    height: 350px;
-    width: 200px;
     justify-content: center;
     align-items: center;
     margin: auto; }
@@ -591,8 +591,14 @@ a {
     justify-content: center;
     align-items: center;
     margin: auto; }
+  .divcarousel.slide.carousel-fade.carouselveronica.pointer-event {
+    margin: auto; }
+  button.carousel-control-prev {
+    height: 200px; }
+  button.carousel-control-next {
+    height: 200px; }
   .imagenesdos {
-    height: 230px;
+    height: 210px;
     width: 350px;
     justify-content: center;
     align-items: center;
@@ -637,7 +643,18 @@ a {
     width: 200px;
     font-size: 12px; }
   select {
-    font-size: 12px; } }
+    font-size: 12px; }
+  /* nosotros */
+  .lead {
+    font-size: 0.8rem;
+    font-weight: 500; }
+  .text-decoration-underline {
+    font-size: 0.8rem;
+    font-weight: 500; }
+  h2 {
+    font-size: 130%; }
+  h1 {
+    padding-bottom: 10px; } }
 
 /* NAVEGACION */
 .navegacion {

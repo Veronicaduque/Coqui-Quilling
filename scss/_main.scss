@@ -14,12 +14,12 @@ h1 {
 
 /* CAROUSEL */
 .carousel-innervero {
-    height: 720px;
-    width: 700px;
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     margin: auto;
 }
+.div#carouselExampleFade.carousel.slide.carousel-fade.carouselveronica.pointer-event{margin: auto;}
+div.carousel-innervero{margin: auto;}
 
 .carouselveronica {
     height: 720px;
@@ -180,6 +180,8 @@ h1 {
     background-color: #f8e5e3;
     resize: none;
 }
+.form legend{ font-weight: 500;
+    font-size: 100%;}
 
 input[type=submit],
 input[type=reset] {

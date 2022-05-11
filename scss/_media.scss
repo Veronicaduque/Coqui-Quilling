@@ -9,13 +9,12 @@
     font-size: 200%;
     font-family: 'poppins', sans-serif;
   }
-  h2{
+
+  h2 {
     font-size: 150%;
   }
 
   .carousel-innervero {
-    height: 500px;
-    width: 500px;
     justify-content: center;
     align-items: center;
   }
@@ -217,8 +216,6 @@
   }
 
   .carousel-innervero {
-    height: 350px;
-    width: 350px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -285,20 +282,29 @@
     text-align: center;
     line-height: 1.5;
   }
-  /* FORM */
-  textarea#consulta{height: 500px;
-    width: 320px;
-    font-size: 14px;}
-    
-input#email{height: 70px;
-  width: 320px;
-  font-size: 14px;}
 
-  input#pwd{height: 70px;
+  /* FORM */
+  textarea#consulta {
+    height: 500px;
     width: 320px;
-    font-size: 14px;}
-  
-    select{font-size: 14px;}
+    font-size: 14px;
+  }
+
+  input#email {
+    height: 70px;
+    width: 320px;
+    font-size: 14px;
+  }
+
+  input#pwd {
+    height: 70px;
+    width: 320px;
+    font-size: 14px;
+  }
+
+  select {
+    font-size: 14px;
+  }
 
 }
 
@@ -334,7 +340,7 @@ input#email{height: 70px;
     background-color: #f8e5e3;
   }
 
-  
+
   .form {
     display: block;
     width: auto;
@@ -409,8 +415,6 @@ input#email{height: 70px;
   }
 
   .carousel-innervero {
-    height: 350px;
-    width: 200px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -466,8 +470,6 @@ input#email{height: 70px;
   }
 
   .carousel-innervero {
-    height: 350px;
-    width: 200px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -481,63 +483,101 @@ input#email{height: 70px;
     margin: auto;
   }
 
-  .imagenesdos {
-    height: 230px;
-    width: 350px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  .divcarousel.slide.carousel-fade.carouselveronica.pointer-event {
+    margin: auto;}
+
+    button.carousel-control-prev {
+      height: 200px;
+    }
+
+    button.carousel-control-next {
+      height: 200px;
+    }
+
+    .imagenesdos {
+      height: 210px;
+      width: 350px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+
+    .espaciovero {
+      height: 500px;
+      width: 200px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+
+    .parrafo_rosa {
+      color: $colorSecundario;
+      font-style: oblique;
+      font-weight: 800;
+      font-size: 80%;
+      font-family: 'poppins', sans-serif;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .btnPropio {
+      margin-left: 15px;
+      margin-bottom: 2px;
+
+    }
+
+    .redesdos {
+      font-size: 80%;
+    }
+
+    .iframe {
+      background-color: $colorTerceario;
+      padding: 10px 15px;
+      border-radius: 10px;
+      width: 170px;
+    }
+
+    .iframe:hover {
+      width: 200px;
+    }
+
+    /* FORM */
+    textarea#consulta {
+      height: 180px;
+      width: 200px;
+      font-size: 12px;
+    }
+
+    input#email {
+      height: 70px;
+      width: 200px;
+      font-size: 12px;
+    }
+
+    input#pwd {
+      height: 70px;
+      width: 200px;
+      font-size: 12px;
+    }
+
+    select {
+      font-size: 12px;
+    }
+
+    /* nosotros */
+    .lead {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .text-decoration-underline {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 130%;
+    }
+    h1{padding-bottom:10px;}
+
   }
-
-  .espaciovero {
-    height: 500px;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-
-  .parrafo_rosa {
-    color: $colorSecundario;
-    font-style: oblique;
-    font-weight: 800;
-    font-size: 80%;
-    font-family: 'poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-  }
-
-  .btnPropio {
-    margin-left: 15px;
-    margin-bottom: 2px;
-
-  }
-
-  .redesdos {
-    font-size: 80%;
-  }
-
-  .iframe {
-    background-color: $colorTerceario;
-    padding: 10px 15px;
-    border-radius: 10px;
-    width: 170px;
-  }
-  .iframe:hover {
-    width: 200px;
-}
-
-/* FORM */
-textarea#consulta{height: 180px;
-  width: 200px;
-  font-size: 12px;}
-input#email{height: 70px;
-  width: 200px;
-  font-size: 12px;}
-
-  input#pwd{height: 70px;
-    width: 200px;
-    font-size: 12px;}
-  
-    select{font-size: 12px;}
-}
